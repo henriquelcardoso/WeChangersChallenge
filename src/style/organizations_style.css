@@ -1,0 +1,66 @@
+.organization-card-col{
+    margin-bottom: 20px;
+}
+
+.organization-card-div{
+    text-align: left;
+    height: 100%;
+    box-shadow:  1px 1px 6px 1px #ccc;
+}
+.organization-card-div:hover{
+    box-shadow:  1px 1px 6px 4px #ccc;
+    background-color: #f0f0f0c9;
+    cursor: pointer;
+}
+
+.organization-card-link, .organization-card-link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.organization-card-info-div{
+    bottom: 0px;
+    height: auto;   
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.organization-card-image{
+    height: 255px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.organization-card-name{
+    margin-bottom: 10px;
+}
+
+.organization-card-location, .organization-card-members{
+    display: flex;
+    align-items: center;
+}
+
+.organization-card-icon{
+    height: 20px;
+    width: 30px;
+    margin-right: 3px;
+}
+
+.organization-card-topics{
+    color: #777;
+    font-size: 14px;
+}
+
+.close-add-organization-modal-icon{
+    font-size: 30px;
+}
+
+.close-add-organization-modal-icon{
+    cursor: pointer;
+}
+
+.close-add-organization-modal-icon path{
+    color: #ffb050;;
+}

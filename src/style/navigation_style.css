@@ -1,0 +1,51 @@
+.header{
+    height: 100px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.header-container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo{
+    width:100px;
+    height: auto; 
+}
+
+.header-add-org{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-add-org:hover{
+    cursor: pointer;
+}
+.header-add-org:hover .header-add-icon > path{
+    color: #ffb050c4;
+}
+
+.header-add-org:hover .header-add{
+    color: #ffb050c4;
+}
+
+.header-add-icon{
+    height: 40px;
+    width: 40px;
+}
+
+.header-add-icon > path{
+    color: #ffb050;
+    height: 100%;
+    width: 100%;
+}
+
+.header-add{
+    color: #ffb050;
+    margin: 0px;
+    font-weight: 600;
+}
