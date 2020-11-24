@@ -19,7 +19,7 @@ var organizations = [
     },
     {
         name: 'Infinite Learning',
-        description: 'We believe that learning doesn\'t take space and everyone should have access to it. Infinite learning exists to reach as many children has possible around the world and give them the ability to study and grow theis skills in multiple areas ',
+        description: 'We believe that learning doesn\'t take space and everyone should have access to it. Infinite learning exists to reach as many children has possible around the world and give them the ability to study and grow their skills in multiple areas ',
         image:  window.location.origin + '/img/education.png',
         location: 'Sweden',
         members: 124,
